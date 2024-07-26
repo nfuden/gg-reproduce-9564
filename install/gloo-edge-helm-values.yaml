@@ -1,0 +1,15 @@
+gloo:
+  gatewayProxies:
+    gatewayProxy:
+      customStaticLayer:
+        envoy_reloadable_features_no_timer_based_rate_limit_token_bucket: true
+observability:
+  enabled: true
+prometheus:
+  enabled: false
+gloo-fed:
+  enabled: false
+  glooFedApiserver:
+  enable: false
+grafana:
+  defaultInstallationEnabled: false
